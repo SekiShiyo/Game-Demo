@@ -23,6 +23,23 @@
     后续会持续更新，敬请期待。<br>
     <span class="copyright">© 2025 Seki</span>
   </footer>
+
+  <section class="comment-section">
+    <h3 class="comment-heading">给 Seki 留言</h3>
+    <form id="comment-form">
+      <div class="form-group">
+        <input type="text" id="nickname" placeholder="你的昵称" required>
+      </div>
+      <div class="form-group">
+        <textarea id="comment-text" placeholder="留下你的评论（只会被作者看到），欢迎报bug！" required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">提交留言</button>
+    </form>
+    <div id="comments-container">
+      <!-- 留言将在这里显示 -->
+    </div>
+  </section>
   <script src="assets/typewriter.js"></script>
+  <script src="assets/comments.js"></script>
 </body>
 </html>
