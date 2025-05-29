@@ -72,6 +72,7 @@ body {
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  text-align: center;
 }
 
 .comment-heading {
@@ -83,6 +84,7 @@ body {
 
 .form-group {
   margin-bottom: 15px;
+  text-align: left;
 }
 
 #nickname {
@@ -103,6 +105,11 @@ body {
   font-family: 'UnifontJP', monospace;
 }
 
+#comment-form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 .submit-btn {
   padding: 10px 20px;
   background-color: #5864f0;
@@ -112,6 +119,8 @@ body {
   cursor: pointer;
   font-family: 'UnifontJP', monospace;
   transition: background-color 0.2s;
+  display: block;
+  margin: 0 auto;
 }
 
 .submit-btn:hover {
