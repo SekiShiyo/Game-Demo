@@ -1,0 +1,6 @@
+
+  Tile width :	48px
+  Tile height:	48px
+
+  Margin:	0px
+  Spacing:	1px

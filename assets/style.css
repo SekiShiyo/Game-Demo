@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'UnifontJP';
+  src: url('fonts/unifont_jp.otf') format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'UnifontJP', monospace;
+  background-color: #f7f7fc;
+  color: #222;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px 60px;
+  text-align: center;
+}
+
+.headline {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #000;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.iframe-container {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+.footer-heading {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.footer br {
+  content: "";
+  display: block;
+  margin-bottom: 8px;
+}
+
+.copyright {
+  display: block;
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #999;
+}
